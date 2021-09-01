@@ -1,0 +1,55 @@
+		@font-face {
+			font-family: 'digital-7';
+			src: url('digital-7.ttf');
+		}
+		
+		.center {
+			background-color: #006699;
+			margin: auto;
+			width: 260px;
+			border: 3px solid #73AD21;
+			padding: 10px;
+		}
+		
+		.title{ 
+			margin-bottom: 10px; 
+			text-align:center; 
+			width: auto; 
+			color:#ccffcc; 
+			border: solid black 2px; 
+		} 
+
+		input[type="button"] 
+		{ 
+			background-color: #009999; 
+			color: white; 
+			border: solid black 2px; 
+			width:100% 
+		} 
+
+		input[type="text"] 
+		{ 
+			font-family: 'digital-7';
+			font-size: 100%;
+			background-color: #ccffff; 
+			border: solid black 2px; 
+			width:100% 
+		} 
+		
+		input[type="button"].redButtons {
+			background-color: #992600;
+		}
+		
+		input[type="button"].greyButtons {
+			background-color: #8c8c8c;
+		}
+		
+		input[type="button"].darkGreyButtons {
+			background-color: #595959;
+		}
+		
+		table{
+			table-layout: fixed;
+			width: 100%;
+		}
+		

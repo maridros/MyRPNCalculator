@@ -1,0 +1,72 @@
+<html> 
+<head> 
+	<!-- javascript code for functionality -->
+	<script src="MyRPNCalculator.js"></script> 
+	<!-- css code for styling -->
+	<link rel="stylesheet" type="text/css" href="MyRPNCalculator.css">
+	<title>My UPN Calculator</title>
+</head> 
+<!-- create table -->
+<body>
+<div class="center"> 
+	<div class = title >My RPN Calculator</div> 
+	<table border="1"> 
+		<tr> 
+			<td colspan="4"><input type="text" id="stack" onkeydown="return false"/></td> 		 
+		</tr> 
+		<tr> 
+			<td colspan="3"><input type="text" value="0" id="input" onkeydown="return false"/></td> 
+			<td><input type="button" value="ENTER" onclick="enterPressed()"/> </td>		 
+		</tr>
+	</table>
+	<p></p>
+	<table border="1">
+		<tr> 
+			<td><input type="button" value="sin" onclick="operatorPressed('sin')" class = "darkGreyButtons"/> </td> 
+			<td><input type="button" value="cos" onclick="operatorPressed('cos')" class = "darkGreyButtons"/> </td> 
+			<td><input type="button" value="tan" onclick="operatorPressed('tan')" class = "darkGreyButtons"/> </td>
+			<td><input type="button" value="C" onclick="clr()" class = "redButtons"/> </td>
+		</tr> 
+		<tr> 
+			<td><input type="button" value="root" onclick="operatorPressed('root')" class = "darkGreyButtons"/> </td> 
+			<td><input type="button" value="power" onclick="operatorPressed('power')" class = "darkGreyButtons"/> </td> 
+			<td><input type="button" value="n!" onclick="operatorPressed('n!')" class = "darkGreyButtons"/> </td> 
+			<td><input type="button" value="CE" onclick="clearDisplay()" class = "redButtons"/> </td>
+		</tr>
+		<tr> 
+			<td><input type="button" value="log" onclick="operatorPressed('log')" class = "darkGreyButtons"/> </td>
+			<td><input type="button" value="ln" onclick="operatorPressed('ln')" class = "darkGreyButtons"/> </td>
+			<td><input type="button" value="swap" onclick="operatorPressed('swap')"/> </td> 
+			<td><input type="button" value="delete" onclick="operatorPressed('del')"/> </td>
+		</tr>
+	</table>	
+	<p></p>
+	<table border="1">
+		<tr> 
+			<td><input type="button" value="1" onclick="symbolPressed('1')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="2" onclick="symbolPressed('2')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="3" onclick="symbolPressed('3')" class = "greyButtons"/> </td>
+			<td><input type="button" value="/" onclick="operatorPressed('/')" class = "greyButtons"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" onclick="symbolPressed('4')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="5" onclick="symbolPressed('5')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="6" onclick="symbolPressed('6')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="-" onclick="operatorPressed('-')" class = "greyButtons"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7" onclick="symbolPressed('7')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="8" onclick="symbolPressed('8')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="9" onclick="symbolPressed('9')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="+" onclick="operatorPressed('+')" class = "greyButtons"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="." onclick="symbolPressed('.')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="0" onclick="symbolPressed('0')" class = "greyButtons"/> </td> 
+			<td><input type="button" value="neg" onclick="operatorPressed('neg')" class = "greyButtons"/> </td>
+			<td><input type="button" value="x" onclick="operatorPressed('x')" class = "greyButtons"/> </td> 
+		</tr> 
+	</table> 
+</div>
+</body> 
+</html> 
