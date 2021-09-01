@@ -12,4 +12,4 @@ If someone wants to find the result of 8 * (3 + 2) they do the following steps:
 The following image shows the graphical calculator and the usage of each buttons
 ![rpnCalc](https://user-images.githubusercontent.com/89779679/131679565-93dc9e8a-7a5f-4629-ac2f-5715ea7bc41a.png)
 ### Running the code
-All you need to run the code is just a browser (like chrome, firefox etc). Just download all the files to the same folder and run MyRPNCalculator.html.
+All you need to run the code is just a browser (like chrome, firefox etc). Just download all the files to the same folder and open MyRPNCalculator.html with the browser.
